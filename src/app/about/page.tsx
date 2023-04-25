@@ -25,7 +25,9 @@ export default function page() {
             <Box
               flexBasis={{ lg: "50%", base: "20%" }}
               mt="30px"
-              pl={{ lg: "initial", base: "80px" }}
+              pl={{ lg: "20px", base: "80px" }}
+              pr={{lg:"20px"}}
+              justifyItems={{lg:"start"}}
             >
               <Image src="https://panaverse-by-ahmed.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPresident.6b9aa486.png&w=384&q=75" />
             </Box>
@@ -33,7 +35,7 @@ export default function page() {
               flexBasis={{ lg: "50%" }}
               mt={{ lg: "30px", base: "0px" }}
               pr="0px"
-              fontSize={{ lg: "lg", base: "15px" }}
+              fontSize={{ lg: "15px", base: "15px" }}
             >
               <Heading>Dr. Arif Alvi</Heading>
               <Text mt="10px" textAlign={{ base: "left" }}>
@@ -85,7 +87,7 @@ export default function page() {
               flexBasis="50%"
               mt="30px"
               pr={{ lg: "150px", base: "0px" }}
-              fontSize="lg"
+              fontSize={{lg:"15px"}}
             >
               <Heading display={{ lg: "initial", base: "none" }}>
                 Panaverse DAO
@@ -130,28 +132,28 @@ export default function page() {
               mt="100px"
               pl={{ lg: "40px" }}
             >
-              <Image src="https://panaverse-by-ahmed.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo5.ecb63f00.png&w=640&q=75" />
+              <Image width={500} height={500} src="https://panaverse-by-ahmed.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo5.ecb63f00.png&w=640&q=75" />
             </Box>
           </Flex>
         </Container>
       </Box>
       <Box textAlign={{ base: "center" }}>
-        <Container maxW="100%" px={{ lg: "250px", base: "20px" }} pb="10px">
+        <Container maxW="100%" px={{ lg: "130px", base: "20px" }} pb="10px">
           <Flex display={{ lg: "flex", base: "grid" }}>
             <Box
               flexBasis="50%"
               mt="30px"
-              width={{ base: "300px" }}
-              height={{ base: "300px" }}
-              ml={{ base: "0px" }}
-            >
+              // width={{ base: "300px" }}
+              // height={{ base: "300px" }}
+              // ml={{ base: "0px" }}
+              pl={{ lg: "initial", base: "80px" }}            >
               <Image src="https://panaverse-by-ahmed.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FZia.cdaa2660.jpg&w=384&q=75" />
             </Box>
             <Box
               flexBasis="50%"
               mt="30px"
-              pr="0px"
-              fontSize="lg"
+              pl={{lg:"20px"}}
+              fontSize={{lg:"15px"}}
               textAlign={{ base: "left" }}
             >
               <Heading>Zia Khan</Heading>
